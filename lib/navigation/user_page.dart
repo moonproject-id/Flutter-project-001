@@ -36,7 +36,7 @@ class _UserPageState extends State<UserPage> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return const Center(child: Text('User not found'));
+            return const Center(child: Text('Fvking User not found'));
           }
           // Data User
           final users = snapshot.data!;
